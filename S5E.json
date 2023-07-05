@@ -1,0 +1,790 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "S5E",
+				"abbreviation": "S5E",
+				"full": "S5E: Superheroic Roleplaying for 5th Edition",
+				"authors": [
+					"Gwendolyn Marshall",
+					"Amy Bliss Marshall"
+				],
+				"version": "2023.07",
+				"url": "https://peginc.com/product/s5e-superheroic-roleplaying-for-5th-edition/"
+			}
+		],
+		"dateAdded": 0,
+		"dataLastModified": 0,
+		"_dateLastModifiedHash": 0
+	},
+	"book": [
+		{
+			"name": "S5E: Superheroic Roleplaying for 5th Edition",
+			"id": "S5E",
+			"authors": [
+				"Gwendolyn Marshall",
+				"Amy Bliss Marshall"
+			],
+			"published":  "2022-06-22",
+			"source": "S5E",
+			"group": "homebrew",
+			"coverUrl": "https://peginc.com/wp-content/uploads/2022/10/S5E_Superheroic_Roleplaying_Cover_900-1.jpg",
+			"contents": [
+				{
+					"name": "Credits"
+				},
+				{
+					"name": "Introduction"
+				},
+				{
+					"name": "Making A Superhero",
+					"headers": [
+						"Session Zero",
+						"Step One: Choose Your Ancestry & Culture",
+						"Step Two: Pick Your Superheroic Class",
+						"Step Three: Select Your Superpowers",
+						"Step Four: Take a Background",
+						"Step Five: Determine Statistics",
+						"Step Six: Create Hooks"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 1
+					}
+				},
+				{
+					"name": "Ancestry & Culture",
+					"headers": [
+						"Ancestries",
+						"Cultures"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 2
+					}
+				},
+				{
+					"name": "Classes",
+					"headers": [
+						"Elementalist",
+						"Kinetic",
+						"Martial Expert",
+						"Mastermind",
+						"Mentalist",
+						"Metamorph",
+						"Mystic",
+						"Special Agent",
+						"Tech",
+						"Vitalist"
+				],
+					"ordinal":{
+						"type":"chapter",
+						"identifier": 3
+				}
+				},
+				{
+					"name": "Background & Personality",
+					"headers":[
+						"Backgrounds",
+						"Feats"
+				],
+					"ordinal":{
+						"type":"chapter",
+						"identifier": 4
+				}
+				},
+				{
+					"name": "Equipment",
+					"headers":[
+						"Armor",
+						"Weapons",
+						"Gear",
+						"Tools",
+						"Expenses",
+						"Modern Vehicles"
+					],
+					"ordinal":{
+						"type":"chapter",
+						"identifier": 5
+					}
+				},
+				{
+					"name": "Leveling Up",
+					"headers":[
+						"Leveling Up",
+						"Multiclassing"
+					],
+					"ordinal":{
+						"type":"chapter",
+						"identifier": 6
+					}
+				},
+				{
+					"name": "Rules",
+					"headers":[
+						"Using Ability Scores",
+						"Time",
+						"Movement",
+						"The Environment",
+						"Resting",
+						"The Order of Combat",
+						"Movement & Postion",
+						"Actions in Combat",
+						"Damage & Healing",
+						"Vehicular Combat"
+					],
+					"ordinal":{
+						"type":"chapter",
+						"identifier": 7
+					}
+				},
+				{
+					"name": "Superpowers",
+					"headers":[
+						"What Is a power?",
+						"Using a Power",
+						"Superpower List",
+						"Powers A-Z"
+					],
+					"ordinal":{
+						"type":"chapter",
+						"identifier": 8
+					}
+				},
+				{
+					"name": "Appendices",
+					"headers":[
+						"1. Conditions",
+						"2. Safety Tools",
+						"3. Superpowered Animal",
+						"4. Sidekick Rules",
+						"5. Optional Mechanics",
+						"6. Beast Stat Blocks"
+					]
+				}
+			]
+		}
+	],
+	"BookData": [
+		{
+			"id": "S5E",
+			"source": "S5E",
+			"data": [
+				{
+					"type": "entries",
+					"name": "Credits",
+					"entries": [
+						{
+							"name": "Written & Designed By:",
+							"entries": [
+								"Gwendolyn Marshall, Amy Marshall"
+							]
+						},
+						{
+							"name": "Editors:",
+							"entries": [
+								"Carol Darnell, Amy Marshall, Gwendolyn Marshall, Kevin Andrew Murphy"
+							]
+						},
+						{
+							"name": "Sensitivity Reader:",
+							"entries": [
+								"Pamela Punzalan"
+							]
+						},
+						{
+							"name": "Art Direction:",
+							"entries": [
+								"Aaron Acevedo, Alida Saxon"
+							]
+						},
+						{
+							"name": "Graphic Design & Layout:",
+							"entries": [
+								"Aaron Acevedo, Ben Acevedo, Thomas Shook"
+							]
+						},
+						{
+							"name": "Cover Art:",
+							"entries": [
+								"Sanford Greene"
+							]
+						},
+						{
+							"name": "Interior Art:",
+							"entries": [
+								"Aaron Acevedo, İbrahim Aydın, Rafael Badalyan. Addison Duke, DesaWarna Studio,Evan Evans, Bien Flores, Mauricio Caballero Peza, Jimbo Salgado."								
+							]
+						},
+						"© 2022 Sigil Entertainment, LLC. All rights reserved.",
+						"sigil-entertainment.com"
+					]
+				},
+				{
+					"type": "section",
+					"name": "Introduction",
+					"page": 1,
+					"entries": [
+						"***Superheroic 5th Edition***, or ***S5E***, is a complete superhero system built on the fifth edition of the world's most popular roleplaying game. With S5E, you can create your favorite heroes from comic books, films, video games, and TV, as well as an endless number of original supers ready to take to the streets and beyond.",
+						{
+							"type": "section",
+							"name": "What is S5E?",
+							"page": 1,
+							"entries": [
+								"S5E is a **tabletop roleplaying game**. Each of these words tells you something important. First, it is a **tabletop** game, which means it is a game played by a group of people around a table (though that can be a virtual 'table' as well, over the internet). Card games like poker, and board games like chess, are also tabletop games.",
+								"Second, it involves **roleplaying**. This means everyone, Game Master included, plays roles. Players play as fictional superheroes created out of their imaginations! The Game",
+								"Master, or GM, plays as the world and the other people in it, responding to the players' choices. Everyone roleplays, which means they get to decide who their character is, what they do, and how they react to things that happen in the game. Feel free to get into acting as much or as little as you enjoy. Some groups dress up and speak in character voices, exploring backstories and motivations like a committed theater troupe. Other groups focus on the game part of the roleplaying game, engaging more with the rules and exploring how to develop their characters mechanically.",
+								"And, of course, most groups do both to some extent.",
+								"Furthermore, it is a **game**. Though roleplaying games are collective story-telling activities, they are also structured by rules. While a free-form improvisational storytelling experience can be rewarding and fun, S5E has rules that limit what can and cannot occur. To determine what happens in situations where there is conflict or risk, we roll a die to help randomize results. This way, everyone at the table can be surprised by what happens in our story, including the GM. It is not the GM's job to tell the players a story; on the contrary, it is everyone's job to play their roles in the game and find out what happens together. Indeed, it helps to think of the dice as another player contributing to the story, sometimes taking it in unexpected directions.",
+								"S5E is a roleplaying game in another sense as well.",
+								"Though it is structured by rules, you cannot really win or lose S5E, because the point of the game is for people to come together to have fun! This is and always should be the primary purpose of playing S5E, so that everyone involved enjoys themselves. This doesn't mean that the experience needs to be easy or always end in victory, mind you\u2014we enjoy stories of struggle and loss sometimes too, after all. We strongly recommend everyone playing together spend time before the first session discussing openly what kind of game you'd like to create together, and how dark or light, how grim or hopeful, you'd like your world to be. And just as importantly, players should discuss whether the presence of any particular content might ruin people's fun. It's a simple courtesy to your friends and fellow players to respect each other's wishes, so that everyone can enjoy themselves. That's the point of playing a game together, after all! Recommended safety tools in Appendix 2 can help with tables and participants deciding this together."
+							]
+						},
+						{
+							"type": "section",
+							"name": "What You Need to Play",
+							"page": 1,
+							"entries": [
+								"To start playing a game of S5E, you need a few things.",
+								"First, S5E is a game played with friends, so you'll need at least two people, though games can have upwards to six or even ten players. The more the merrier, but recognize that as the number of players increase, so do the heroes sharing the spotlight in your collective tale.",
+								"One of these players takes the role of the Game Master, or GM. Whereas the other players take on the roles of a single hero, the GM plays the world around the heroes, including the supporting cast of characters, known as nonplayer characters, or NPCs, as well as the villains whom the heroes must face. The GM also handles the environment and helps decide rules questions, though those can be discussed and decided among the group as well.",
+								"You also need dice. The most important die in S5E is the icosahedron, or twenty-sided die; you use it for almost everything. Ideally, each player has one available. You also need a few four-sided, six-sided, eight-sided, ten-sided, and twelve-sided dice, for rolling damage and other things.",
+								"Beyond that, you need character sheets for each player, pencils, and a table to gather around. These can also be digital, of course, and your play space can be a virtual tabletop. Lastly, you need this book!",
+								"The GM may wish to have a GM screen, to conceal their notes and, perhaps, their rolls as well. This can increase suspense, but it isn't necessary. Indeed, some",
+								"GMs prefer to roll the dice in view of their players, to share the anticipation. GMs may also want a pre-written adventure. Most GMs prefer to tailor their adventures to suit their players and their characters, so the GM likely needs notes as well.",
+								"Some game groups like to use nothing but their imaginations and words to tell the story of what their heroes do and how the epic battlefield is laid out\u2014this is called using 'the theater of the mind.' Other groups prefer to use maps and miniatures to represent their heroes and the area around them. If your group prefers maps and minis, you'll need some of those as well. S5E can be played either way, however, and rules for using both methods can be found in Chapter Seven: Rules, below."
+							]						
+						},
+						{
+							"type": "section",
+							"name": "How to Use This Book",
+							"page": 1,
+							"entries": [
+								"The first chapter provides a step-by-step guide to character creation. In creating a character, players must consult Chapter One: Making a Superhero, when building a superhero that they would like to be. After that, most players must also consult Chapter Eight: Superpowers, to select which superpowers their heroes have.",
+								"There are hundreds of powers, which might initially overwhelm new players at first glance. Don't fret! The powers are broken down by superheroic class and level, so there are a manageable number available for a player to choose at any given level, or when making a new hero.",
+								"After character creation, there are several sections of the book you may find yourself referring to regularly, so they deserve special mention here. If you are a player, you should make note of the pages with their superheroic class described, because it grants them special features and determines how many powers you know. Second, you might record the pages in Chapter Eight, where their powers are listed.",
+								"If a group wishes to get to playing as quickly as possible, some prebuilt heroes are also available with the starter adventure (available separately).",
+								"If you are a GM, you should familiarize yourself with the basics of the rules, found in Chapter Seven: Rules. For more detailed guidance, please consult the Gamemaster's Guide, and foes and threats can be found in the Augmented Operator Registry (both sold separately)",
+								"Now, it's time to become a superhero!"
+							]
+						},
+						{
+							"type": "inset",
+							"page": 2,
+							"entries": "I sense things... And perceive again... Have I been revived? There was a darkness, all consuming, yet tortuous. A fog that was dreamless and painful. How has it come to be that I can again exert my will? I will need to gather strength."
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name":"Making A Superhero",
+					"page": 5,
+					"entries": [
+						"channel flame, or fly, or turn to stone, or read minds? Will they be a martial arts master, or a computer whiz? Let's find out.",
+						"The process of making a superhero follows a few simple steps.",
+						{
+							"type": "list",
+							"name": "Making A Superhero",
+							"page": 5,
+							"entries": [
+								"0. Session Zero",
+								"1. Choose your ancestry and culture",
+								"2. Pick your superheroic class",
+								"3. Select your superpowers",
+								"4. Take a background",
+								"5. Determine your statistics",
+								"6. Create hooks"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Session Zero",
+							"page": 5,
+							"entries":
+							[
+							{
+								"type": "quote",
+								"entries":[
+									"<center>\"*It’s time to become a hero!*\"</center>"
+								]
+							},
+							{
+								"type": "entries",
+								"entries":[
+									"For your first session, sometimes called a **session zero**, expect to make characters, as well as to decide what kind of superheroic tale you’d like to tell. There are many kinds of superheroes, and many kinds of superheroic adventures. Do you want to be gritty street vigilantes hunting down criminals? Or a young superteam protecting your city from a villain, with a heavy focus on personal drama and relationships? Or would you prefer to save the planet from an alien invasion, highlighting high flying, blockbuster action? What you do in S5E is up to you!"
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Level",
+								"page": 5,
+								"entries": [
+									"First, you must determine the level at which you will play. The levels run from 1-20, with levels 1-4, who are slightly more powerful than typical humans, with a few modest powers; they tend to patrol a single neighborhood, fighting crime. Heroes from levels 5-10 usually patrol a wider area, perhaps a large city, and face solo-supervillains and larger threats. Such heroes may be young superteams or up-and-coming heroes. Level 11-16 heroes, on the other hand, are powerful enough to fight global threats, like teams of supervillains trying to conquer whole countries, mega-corporations trying to dominate the world, or even alien invasions. And the most powerful heroes, those of levels 17-20, bear the heavy burden of protecting the galaxy, or even the universe, from cosmic threats of all kinds.",
+									"As you play, you can decide whether to progress in levels, or to remain at your chosen level. After all, though some comic book heroes grow and increase their powers, others start off as powerful heroes and remain that way. More information on leveling up and growing in power can be found in Chapter Six: Leveling Up."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Tone, Content & Consent",
+								"page": 5,
+								"entries": [
+									"Everyone should decide together on the tone of the story you'd like to tell, whether dark or hopeful. Some players want a wholesome tale of stalwart heroes straight out of silver age comics, fighting bad guys in an unambiguous moral universe. Other players want character-driven and conflicted heroes with moral uncertainty. Still others want to play a team of angsty teen heroes, working together for the first time. Yet others want to explore the dark side, playing amoral supers or even outright villains. Everyone playing together should be on the same page about the desired tone at the start of play, though of course it can shift and change over time.",
+									"When a group of friends get together to watch a movie or eat a meal, they check in with each other to find out what everyone would enjoy. Similarly, when playing a game of S5E, players should check in with each other to find out what kind of content they welcome and what they would rather avoid.",
+									"Roleplaying games can involve danger and death, romance and sex, horror, and hate\u2014the whole range of human emotion and experience. Just as some folks like horror movies and some don't, some players want death or sex or spiders or prejudice in their games and others won't. The point of S5E is to allow a group of friends to play a game and tell a story together that they all find fun and rewarding. If someone isn't finding the experience fulfilling or enjoyable, something has gone wrong.",
+									"Some content can be upsetting or annoying to players, so much so that it breaks them out of the imaginative experience or ruins their fun. For example, some players might want to avoid racism or sexual assault, whereas others might get so grossed out by body horror that they can't enjoy the game that session. Again, establishing what content folks do and don't want up front (and on an ongoing basis) helps to ensure that everyone has a good time--which is, after all, the point of sitting down to play a game together!",
+									"Please see Appendix 2 for information about safety tools, which can help with some of these issues. And for a more detailed guide to running a session zero, as well as using consent and safety tools, please see the Gamemaster's Guide."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Imagine Your Hero!",
+								"page": 6,
+								"entries": [
+									"Now, the fun part\u2014it's time to begin imagining your superhero! Some players imagine their powers first: 'I want to fly!' Others may think of their story: 'I want to protect the innocent.' This core concept will help guide the process of character creation. You can make a hero that resembles your favorite super from comics, film, and video games, but you can also make something entirely new. Be as creative as you like!",
+									"One way to begin is to form an idea of your hero as a person. Are they an adult? A teen? What gender are they? Where do they come from? Are they human, mutant, alien, robotic?",
+									"Imagine their powers and abilities. Do their powers focus on projecting energy, the elements, or some force of nature? Is their very body and its physical abilities their superpower? Do they use technology or magic? Do they have combat training?",
+									"If you are stuck at this phase and are struggling to come up with a concept, that's ok! You can still follow the guide below, choosing one aspect of your hero at a time."
+								]
+							},
+							{
+								"type": "inset",
+								"name": "Making Blaze: A Hero Creation Example",
+								"page": 6,
+								"entries": [
+									"Alicia sits down to make her first superhero for S5E. She talks to her fellow players, and they decide to make 5th level heroes, so they can be more epic than street-level vigilantes.",
+									"She also discusses tone, genre, and content with her fellow players. She wants to feel heroic and hopes to have a nice escape from all the bad news she reads, so she'd rather not have her game be too dark or heavy. She and her friends work out that they want to play a PG-13 rated game with lots of action and heroism, with true heroes and villains. They also decide that they want action like a blockbuster superhero movie, but they welcome the occasional mystery or spooky episode too.",
+									"They also discuss content and decide to stay away from graphic or sexual violence, especially against innocents, children, and so on. They agree that death is OK, if it isn't cheap. And they welcome romance, and body horror too; the whole group enjoys those kinds of movies!",
+									"Finally, Alicia imagines her hero: a woman flying, shooting fire, and taking down supervillains, all in the name of keeping her community safe. She even decides on a name: Blaze!"
+								]
+							}
+						]
+						},
+						{
+							"type": "section",
+							"name":"Step One: Choose Your Ancestry & Culture",
+							"page": 6,
+							"entries":[
+								{
+									"type": "quote",
+									"entries": [
+										"Who are you? Where do you come from?"
+									]
+								},
+								{
+									"type": "section",
+									"page": 6,
+									"entries": [
+										"The first step in making your superhero is choosing your biological ancestry and cultural heritage. Your ancestry determines something about your genetic makeup, whether it be **Human, Mutant, Mythic, Atlantean, Robotic, or Alien**. Your gain several inborn traits from your ancestry.",
+										"Your cultural heritage, in contrast, represents the society in which you were raised or created. Your culture provides you with knowledge, skills, and language--things you cannot inherit by birth but must be taught or learn. Options include **Present-Day Earth, Future Earth, Ancient Earth, Mythic Realm, Atlantean, or Alien.**",
+										"Many superheroes are humans who grew up on presentday Earth. If that's you, choose the human ancestry and the present-day Earth culture. Many other heroes are mutants--humans with a distinct genetic trait that alters them in profound and unique ways. Most mutants grow up on present-day Earth as well, so they have the mutant ancestry and present-day Earth culture.",
+										"Other heroes have rarer ancestries. For example, you might be an alien, who grew up on a distant planet, with both alien ancestry and culture. Or perhaps you were born and raised at the bottom of the sea, and you have emerged from the depths to assist those who live on land; you have an Atlantean ancestry and culture.",
+										"Yet other heroes may not have been raised by people of the same ancestry. Perhaps your alien parents sent you to Earth as a baby? Choose the alien ancestry and human culture. Your hero could be a human taken and raised in space as a child, in which case you choose the human ancestry and alien culture.",
+										"The details of the available ancestries and cultures are found in Chapter Two."
+									]
+								},
+								{
+									"type": "inset",
+								"name": "Making Blaze: Choosing an Ancestry and Culture",
+								"page": 6,
+								"entries": [
+									"First, Alicia chooses Blaze's superheroic ancestry and culture. She had envisioned a human woman and the beginnings of her origin story involve Blaze as a pilot, so she chooses the human ancestry, present-day Earth culture. She records her ancestry and culture and the features they grant her on her character sheet."
+								]
+								}
+							]						
+						},
+						{
+							"type": "section",
+							"name":"Step Two: Pick Your Superheroic Class",
+							"page": 7,
+							"entries":[
+								{
+									"type": "quote",
+									"entries": [
+										"What kind of hero will you become?"
+									]
+								},
+								{
+									"type": "section",
+									"page": 6,
+									"entries": [
+										"Every superhero has a superheroic class that defines the kinds of powers they have and how they use them. Your class provides you with your superpower list, from which you choose your powers, as well as special abilities that only members of your class receive.",
+										"It also determines your hit points (HP)."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Classes",
+									"page": 7,
+									"entries": [
+										"You have ten options when selecting your superheroic class. Your options are summarized here, but each class is explained in detail in Chapter Three.",
+										"You can be an **Elementalist**, who channels a classical element like fire, water, earth, or air, or who can manipulate a fundamental force of the universe, like electricity, time, gravity, light, or sound waves.",
+										"The **Kinetics** channel their power through their own bodies, moving with incredible strength or speed. Some teleport, others fly, and still others perform impossible acrobatic feats, while a few can absorb a mind-boggling amount of damage.",
+										"Several heroes express their power and ability through the rigorous training as a **Martial Expert**, honing their bodies into a deadly force. Some use their hands and feet, manifesting explosive power with a punch or kick. Others direct their deadly attacks with the help of a favored weapon, like a bow or pistol.",
+										"A few heroes are **Masterminds**, employing incredibly powerful intellects to analyze their foes and predict threats, or calling Minions onto the field of battle to fight for them.",
+										"Some superheroes are **Mentalists**, using telekinesis to move objects with their minds, or telepathy to communicate with or read thoughts, or even to implant images and illusions in someone's consciousness.",
+										"The **Metamorph** transforms their bodies in fantastic ways. Some can stretch their bodies in astonishing shapes while others can take on the appearance of other people with ease. Still other Metamorphs can become {@condition invisible}, or transmute their flesh into steel, and more. A few Metamorphs are even hosts bonded with a symbiote that grants them their powers.",
+										"The **Mystics**, on the other hand, use subtler, stranger methods. Some are witches, hexing foes, while others study the ways of the arcane. A few truck with the spirits, even with entities like Death itself.",
+										"And then there are **Tech** heroes who are mighty not through strength but intellect. They are masterful engineers, wielding high-tech weapons, or constructing power armor or an array of gadgets, which grant them powers on par with any of the other heroes.",
+										"Another superpowered class is the **Vitalist**, someone with a special connection to the living world. Some Vitalists commune with animals, becoming one themselves, while others command plant life. Still others work on a more fundamental level, producing and manipulating poisons, disease, and rejuvenating or necrotizing forces directly.",
+										"Finally, you can opt to forego superpowers entirely and instead choose training, equipment, and the support of an organization behind you as a **Special Agent**. Despite what you might think, Special Agents can and do make as big a difference as superpowered heroes in the field."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Level",
+									"page": 8,
+									"entries": [
+										"When making your superhero, start with a new, 1st level hero. If you and your group decide to begin play at a higher level, then you can follow the instructions in Chapter Six on leveling up your hero.",
+										"Your level also determines your **proficiency bonus** which increases with your level. At 1st level, your bonus is +2. You add your proficiency bonus to many {@dice d20} rolls you make, especially power rolls and skill checks. You also add your proficiency bonus to your Armor Class (or AC) when not wearing armor. As you rise in levels, your proficiency bonus goes up; consult the level charts in Chapter Two for each class to see when that occurs."
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Making Blaze: Choosing a Class",
+									"page": 8,
+									"entries": [
+										"Next, Alicia chooses Blaze's superheroic **class**. She isn't using technology, and she wants to be amazing with fire, so she decides that Blaze is an Elementalist hero.",
+										"Having chosen her class, she records it and the features it grants her on her character sheet. She also makes a note of the number and kind of powers she gets to select for Blaze in the next step."
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name":"Step Three: Select Your Superpowers",
+							"page": 8,
+							"entries":[
+								{
+									"type": "quote",
+									"entries": [
+										"So, what can you do?"
+									]
+								},
+								{
+									"type": "section",
+									"page": 6,
+									"entries": [
+										"Next, your class guidelines tell you how to pick your **powers** and how many you can select. Consult your chosen superpower class to see how many powers are available to you. Further down, in Chapter Eight, you'll find the descriptions of the powers, which explain what each power lets you do."
+									]
+								},
+								{												"type": "inset",
+									"name": "Making Blaze: Picking Powers",
+									"page": 8,
+									"entries": [
+										"Now Alicia turns to the powers chapter and looks over the 1st level powers for her class, as well as the powers on the General Powers list. She chooses two at will powers and 3 1st-level powers from the Elementalist and General Power lists, as her class chart indicates, and records them on her sheet. Once she's created Blaze at the 1st level, she'll level her up to 5th level, as her group agreed. For now, though, she moves on."
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name":"Step Four: Take A Background",
+							"page": 8,
+							"entries":[
+								{
+									"type": "quote",
+									"entries": [
+										"So, what can you do?"
+									]
+								},
+								{
+									"type": "section",
+									"page": 8,
+									"entries": [
+										"Next, pick a background. Who were you before you became a superhero? Do you still live that life when you're not out being a hero? Pick one from the options in Chapter Four or use the Custom background option to come up with your own.",
+										"Your armor, weapons, and skill proficiencies, as well as starting equipment, are determined by your chosen background."
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Making Blaze: Background",
+									"page": 9,
+									"entries": [
+										"Blaze's powers chosen; Alicia turns to flesh out her character. She had an idea that Blaze had been a pilot, so she is happy to find Pilot as one of the backgrounds.",
+										"She records it on her sheet, along with the skills, proficiencies, and equipment it grants."
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name":"Step Five: Determine Statistics",
+							"page": 9,
+							"entries":[
+								{
+									"type": "quote",
+									"entries": [
+										"Ok, let’s talk numbers."
+									]
+								},
+								{
+									"type": "section",
+									"page": 9,
+									"entries": [
+										"Now that you have the concept of your hero, it is time to generate your scores and statistics for play."
+									]
+								},
+								{
+									"type": "section",
+									"name": "Ability Scores",
+									"page": 9,
+									"entries": [
+										"Once you've chosen your class and powers, you must also determine your **ability scores**. You may spend 27 points to purchase your scores according to the Ability Score/Cost chart. Alternatively, you may roll {@dice 4d6} six times, dropping the lowest d6 with each roll, and then apply the sum of the remaining three dice to each of your abilities as you see fit."
+									]
+								},
+								{
+									"type": "table",
+									"page": 9,
+									"colLables": [
+										"Ability Score",
+										"Cost"
+									],
+									"colStyles": [
+										"col-3 text-center",
+										"col-9"
+									],
+									"rows": [
+										[
+											"8",
+											"0"
+										],
+										[
+											"9",
+											"1"
+										],
+										[
+											"10",
+											"2"
+										],
+										[
+											"11",
+											"3"
+										],
+										[
+											"12",
+											"4"
+										],
+										[
+											"13",
+											"5"
+										],
+										[
+											"14",
+											"7"
+										],
+										[
+											"15",
+											"9"
+										],
+										[
+											"16",
+											"11"
+										],
+										[
+											"17",
+											"13"
+										],
+										[
+											"18",
+											"15"
+										]
+									]
+								},
+								{
+									"type": "section",
+									"page": 9,
+									"entries": [
+										"If you are playing as a hero with a human culture, add +1 to each ability score. Otherwise, follow the instructions listed with your chosen culture to determine what bonuses you receive to your ability scores."
+									]
+								},
+								{
+									"type": "section",
+									"name": "Armor Class",
+									"page": 9,
+									"entries": [
+										"Next, determine your Armor Class (AC). This is the number an enemy must roll to hit you with an attack. To calculate your AC when not wearing armor, use the following formula:",
+										"**Unarmored AC** = 10 + Your Proficiency Bonus + Your Dexterity Bonus",
+										"If you are wearing armor or have natural armor, like the Alien's Hardened Skin, use the method to calculate your AC determined by that armor instead of the above formula.",
+										"Finally, decide if you want to purchase any additional **equipment** from the options listed in Chapter Five."
+									]
+								},
+								{
+									"type": "section",
+									"name": "Hit Points",
+									"page": 9,
+									"entries": [
+										"Your superpowered class determines what Hit Dice you use, which, in turn, determines how many hit points you have. Hit points (HP) represent how much damage you can sustain before you fall {@condition unconscious}.",
+										"Each class lists a Hit Die, either {@dice d6}, {@dice d8}, {@dice d10}, or {@dice d12}. When you create your character at 1st level, use the following method to determine your HP:",
+										"**HP** = 10 + the maximum number on your Hit Die + your Constitution modifier",
+										"At each subsequent level you add the average roll of that die, rounded up, plus your Constitution modifier, to your current hit point maximum. Alternatively, rather than using the average, you can roll the die instead."
+									]
+								},
+								{
+									"type": "section",
+									"name": "Initiative Bonus",
+									"page": 9,
+									"entries": [
+										"Whenever you enter combat, your GM asks for initiative rolls. This determines who goes first and when everyone acts. Your initiative bonus is equal to your Dexterity modifier."
+									]
+								},
+								{
+									"type": "section",
+									"name": "Team morale & Combos",
+									"page": 9,
+									"entries": [
+										"Finally, there is a shared stat called **Team Morale**, which is a single score that applies to the whole group of PCs at the table. Team Morale begins at zero. Each time one of the heroes uses the {@action **Help**} action in combat, and whenever one of the players rolls a 20 on the {@dice d20} for an attack, ability check, or save, your shared Team Morale score goes up by 1. Once the Team Morale score equals the number of player characters at the table, they can decide together when to spend them to use a **Team Combo**.",
+										"A Team Combo is a free action that all heroes take together, but the catch is this: you all must use this free action to come together *to combine your powers and abilities!* Each player must describe how they combine their attack or power with one or more other hero(es) into a combined or collaborative effect. Team Combos are a great opportunity for some narrative superheroics, and your GM knows to let these moments really shine. For now, though, the Team Morale stat begins at zero, so get ready to help your allies frequently!"
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Making Blaze: Calculating Scores",
+									"page": 10,
+									"entries": [
+										"After choosing her ancestry and culture, class, powers, and background, Alicia uses 27 points to buy her ability scores, making sure to give herself a high Charisma of 16, because that is the ability linked to her superpowers.",
+										"She wants to be quick and tough, but also clever, so she raises her Dexterity and Constitution to 14 and her Intelligence and Wisdom to 12. She doesn't have enough points to raise her Strength, though, so it only goes up to 11.",
+										"Because she is an Elementalist, her base HP is 10 + 10 + Constitution modifier, which means she has 22 HP. She is a 1st-level hero, too, so her Proficiency Bonus is +2, which, added to her Dexterity modifier of + 2, means her AC is 14. Finally, she records her Initiative Bonus +2. Hopefully she will go first more often than her foes!"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Step Six: Create Hooks",
+							"page": 10,
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"Why are you a hero instead of a villain? And what, or who, makes your life more complicated?"
+									]
+								},
+								{
+									"type": "entries",
+									"page": 10,
+									"entries": [
+										"A hero is more than just their class, powers, and statistics; a hero is part of a story. What happened in your life to make you take up the mantle of hero? What motivates you to fight for others? Why not a villain, but a hero? The answer to these questions is called your cornerstone, and it defines your role in the story.",
+										"At times, heroes seem invulnerable. The hero of a good story, however, has weaknesses as well as strengths. Comic book heroes are no different; whether it is a glowing rock or a loved one, every hero has their weak point. This is your vulnerability.",
+										"Most of the time, your hero does not operate solo, but with a team. Hopefully, your hero finds strength and solace in their teammates, though inevitably tensions can arise as well. These connections and tensions can enrich roleplay and shape the story the players tell together.",
+										"These hooks should be an important part of your life and can serve as a way for the GM to interact with and motivate your character. Strictly speaking, you don't need to come up with hooks to start play. If you just want to slug it out with a supervillain in some super combat, then feel free to skip this step. If you want a more developed hero brimming with roleplay opportunities, however, then dive in!"
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Heroic Transformation?",
+									"page": 10,
+									"entries": [
+										"You might want a hero who literally transforms to become their heroic self. If so, you may want to take the Heroic Transformation feat. Talk to your GM about starting the game with this feat. It doesn't give much in the way of mechanical advantage, so most GMs should be comfortable with a PC gaining this feat for free as a part of character creation. See Chapter Four for the feat's details."
+									]
+								},
+								{
+									"type": "section",
+									"name": "Choosing A Cornerstone",
+									"page": 10,
+									"entries": [
+										"Think about why your hero has chosen to use these powers, or this tech, to become a hero, rather than, say, a villain. This foundation for your heroism is your cornerstone. This can be an abstract value or belief, like the desire to protect the innocent, or save the environment, or increase equality. Try to avoid being too general, however; 'being heroic' or 'fighting bad guys' might be too vague. You want something that makes you an individual, distinct from other heroes.",
+										"Ideally, your cornerstone is personal and specific. Perhaps you want to make your father proud or live up to the ideals passed down from your deceased uncle, or make the world safe for your children, or discover your own path in life, or learn the truth about your origin. Ultimately, a hero's cornerstone is their fundamental drive or motivation. Don't worry, you can change your cornerstone in the future, but, for now, pick one and write it down!",
+										{
+											"type": "entries",
+											"name": "Using Cornerstones",
+											"page": 10,
+											"entries": [
+												"Selecting a cornerstone is important for two reasons. First, it helps both you and your GM understand your hero. You'll know how your hero might react to various circumstances and your GM will know how to present the world to you in a way that appeals to your hero's motivations and values.",
+												"Second, describing your cornerstone matters mechanically as well, because acting from your cornerstone can grant you **Inspiration**. Visit the section titled, \"Debriefs,\" to see this in action."
+											]
+										}
+									]
+								},
+								{
+									"type": "section",
+									"name": "Describing A Vulnerability",
+									"page": 10,
+									"entries": [
+										"What is something about your hero that makes your life more complicated, unusual, or challenging? A good vulnerability tells a part of your story, but also allows GMs to interact with you in fun and surprising ways.",
+										"A common vulnerability is having a secret identity. Perhaps you have a family you don't want your villainous enemies to know about, so you try to keep your heroic life separate from your off duty one. Another good example is having a dependent. Maybe you are working to provide for your elderly aunt, or a child, and that commitment means you must make a living, or spend time with them, which can make unlimited superheroic action more difficult. Or maybe you have a unique weakness, like a certain mineral that robs you of your powers. Other possible vulnerabilities include having a stringent moral code, a demanding job, or a demonic parent. Indeed, you might even choose to have more than one. After all, a good vulnerability isn't necessarily a drawback or flaw, but an opportunity for interesting story-telling and robust character development.",
+										{
+											"type": "entries",
+											"name": "Limitations on Powers",
+											"page": 11,
+											"entries": [
+												"In comics, some heroes gain powers thanks to a magical or high tech artifact, but they aren't particularly magical or technologically focused heroes. You can choose to be an Elementalist or Kinetic hero who gains their powers from an artifact or device without any issue, but you might also decide that this dependence is a vulnerability for you. Perhaps you only gain your powers if you have your weapon in your hand, leaving you vulnerable without it, for example. If you wish to have a vulnerability like this, work with your GM. You may also wish to take the free Heroic Transformation feat, found in Chapter Four."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Money and Equipment",
+											"page": 11,
+											"entries": [
+												"In S5E, each hero is assumed to have modest housing and possessions, like an old laptop and cell phone, worn clothes, and perhaps a part-time job, financial aid, or parental support. You might also have a bike or older car. Heroes with the weapons origin also possess several high-quality weapons.",
+												"If you wish, you can choose a vulnerability related to housing, money, or work. For example, you could choose to be homeless, or poor, or working two jobs, which of course could result in complications for your heroic activities."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Wealth",
+											"page": 11,
+											"entries": [
+												"Alternatively, you might like your hero to be wealthy. Being affluent enough not to have to work full time requires no special character adjustment. If you want your hero to have vast wealth or specialized military equipment, however, speak with your GM about exchanging it for another character feature. For example, you could exchange a feature from your ancestry or culture for wealth, or you could lower the total number of powers you know by 1 to have access to a piece of military grade weaponry."
+											]
+										},
+										{
+											"type":"inset",
+											"name": "Gear, Weapons, and Equipment",
+											"page": 11,
+											"entries": [
+												"If you like, you can play S5E without worrying about money or specific gear. For those groups that would like to keep closer track of such things, or who wish to create characters with a lot of weapons and gear, consult your Background to find out how much money you begin with and then buy your gear from the gear lists in Chapter Five: Equipment. If you opt to select specific gear, add it to your character sheet."
+											]
+										}
+									]
+								},
+								{
+									"type": "section",
+									"name": "Connections & tensions",
+									"page": 11,
+									"entries": [
+										"For the final step of hero creation, speak with your fellow players and learn about their heroes too. Form connections or tensions between your hero and each of your fellow team members. These connections and tensions capture a significant event or personality quirk that involved the two of you that shapes your interpersonal relationship.",
+										"Connections are events that brought you closer; tensions are those that pushed you apart or that serve as an obstacle to building trust or friendship. When you create your connection or tension, determine how your hero feels about the other hero. Are they friends? Rivals? Frenemies? Lovers? Could they be siblings or classmates? Perhaps they have a teacher-student or heroand-sidekick kind of relationship. Maybe they barely know each other, so the relationship is based on distrust or curiosity at this point.",
+										"Next, work with the other player to come up with an event that shapes your relationship. You've decided that your hero trusts another hero; why? What happened to earn that trust? Or maybe you are afraid of another hero; what did they do in the past to cause that fear?",
+										"When you make a connection or tension with another hero, you and the other player can use the same shared event to form each of your connections with the other, or you can each come up with distinct ones of your own. Both players should agree about the nature of these relationships, but the two characters need not feel the same way about the other. For example, imagine if a young hero looks up to an established hero, but the established hero is uncomfortable being put on a pedestal. Thus, the young hero has a connection with the established hero, but the established hero has a tension with the young hero. Record your connections and tensions on your sheet.",
+										{
+											"type": "entries",
+											"name": "Examples Connections",
+											"page": 11,
+											"entries": [
+												"When I was grieving after my father died, Blaze sought me out to check on me. Now she is the person I go to when I need a strong shoulder to lean on.",
+												"When we were in trouble, Runewarden risked her life to save the team. They are the person I trust most to make the difficult decisions.",
+												"When I was going to flunk my computer science class, Gear Head tutored me until I got a good grade\u2014at least, when he remembered our meeting times. I trust him with my computer, but not my car keys.",
+												"I ended up spending a night on a stakeout with Velocity and had a blast telling jokes and talking about our favorite movies, but by the end of the evening I was exhausted. Now she's who I go to when I want to relax, but only in small doses."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Examples Tensions",
+											"page": 11,
+											"entries": [
+												"I once asked Magus to explain the magical forces in the world, so he showed me with a mind link. It was so bizarre and frightening that I now feel a little uncomfortable around him, because he sees the world so differently than I do.",
+												"In our last battle, I watched Impact demolish a car with a single punch. To be honest, I am a little afraid of her, but I try to hide it.",
+												"I have a crush on Murmur but am afraid it will ruin things if I admit it, so I am awkward around them.",
+												"I know that Resonance once worked for the megacorp that's causing so much trouble, so I am not sure I can trust them with our plans."
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Making Blaze: Determining Hooks",
+											"page": 12,
+											"entries": [
+												"Alicia thinks up some hooks, beginning with her cornerstone. Thinking of her own life, she imagines Blaze having a community that she is close to, so she picks \"protecting her community\" as her cornerstone. She also adds her large, extended family as a vulnerability, too, signaling to the GM that they might be a way to cause some trouble for Blaze in the future.",
+												"She shares her hero's story with her fellow players, and then they all discuss what kinds of connections and tensions they might have with each other. Now Blaze is ready to be a superhero!"
+											]											
+										}
+									]
+								}
+							]
+
+						}
+					]
+				}
+			]
+		}
+	]
+}
