@@ -9,13 +9,14 @@
 					"Gwendolyn Marshall",
 					"Amy Bliss Marshall"
 				],
-				"version": "2023.07",
+				"color": "a4811f",
+				"convertedBy": [
+					"VAD"
+				],
+				"version": "2023.07.05",
 				"url": "https://peginc.com/product/s5e-superheroic-roleplaying-for-5th-edition/"
 			}
-		],
-		"dateAdded": 0,
-		"dataLastModified": 0,
-		"_dateLastModifiedHash": 0
+		]
 	},
 	"book": [
 		{
@@ -171,7 +172,7 @@
 			"source": "S5E",
 			"data": [
 				{
-					"type": "entries",
+					"type": "section",
 					"name": "Credits",
 					"entries": [
 						{
@@ -241,7 +242,7 @@
 							]
 						},
 						{
-							"type": "section",
+							"type": "entries",
 							"name": "What You Need to Play",
 							"page": 1,
 							"entries": [
@@ -256,7 +257,7 @@
 							]						
 						},
 						{
-							"type": "section",
+							"type": "entries",
 							"name": "How to Use This Book",
 							"page": 1,
 							"entries": [
@@ -276,8 +277,8 @@
 					]
 				},
 				{
-					"type": "entries",
-					"name":"Making A Superhero",
+					"type": "section",
+					"name":"Chapter 1: Making A Superhero",
 					"page": 5,
 					"entries": [
 						"channel flame, or fly, or turn to stone, or read minds? Will they be a martial arts master, or a computer whiz? Let's find out.",
@@ -297,7 +298,7 @@
 							]
 						},
 						{
-							"type": "entries",
+							"type": "section",
 							"name": "Session Zero",
 							"page": 5,
 							"entries":
@@ -404,7 +405,7 @@
 									]
 								},
 								{
-									"type": "section",
+									"type": "entries",
 									"page": 6,
 									"entries": [
 										"Every superhero has a superheroic class that defines the kinds of powers they have and how they use them. Your class provides you with your superpower list, from which you choose your powers, as well as special abilities that only members of your class receive.",
@@ -430,6 +431,13 @@
 									]
 								},
 								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://i.imgur.com/qFirkOt.png"
+									}
+								},
+								{
 									"type": "entries",
 									"name": "Level",
 									"page": 8,
@@ -437,6 +445,13 @@
 										"When making your superhero, start with a new, 1st level hero. If you and your group decide to begin play at a higher level, then you can follow the instructions in Chapter Six on leveling up your hero.",
 										"Your level also determines your **proficiency bonus** which increases with your level. At 1st level, your bonus is +2. You add your proficiency bonus to many {@dice d20} rolls you make, especially power rolls and skill checks. You also add your proficiency bonus to your Armor Class (or AC) when not wearing armor. As you rise in levels, your proficiency bonus goes up; consult the level charts in Chapter Two for each class to see when that occurs."
 									]
+								},
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://i.imgur.com/b3uCD9k.png"
+									}
 								},
 								{
 									"type": "inset",
@@ -467,7 +482,8 @@
 										"Next, your class guidelines tell you how to pick your **powers** and how many you can select. Consult your chosen superpower class to see how many powers are available to you. Further down, in Chapter Eight, you'll find the descriptions of the powers, which explain what each power lets you do."
 									]
 								},
-								{												"type": "inset",
+								{	
+									"type": "inset",
 									"name": "Making Blaze: Picking Powers",
 									"page": 8,
 									"entries": [
@@ -488,7 +504,7 @@
 									]
 								},
 								{
-									"type": "section",
+									"type": "entries",
 									"page": 8,
 									"entries": [
 										"Next, pick a background. Who were you before you became a superhero? Do you still live that life when you're not out being a hero? Pick one from the options in Chapter Four or use the Custom background option to come up with your own.",
@@ -518,14 +534,14 @@
 									]
 								},
 								{
-									"type": "section",
+									"type": "entries",
 									"page": 9,
 									"entries": [
 										"Now that you have the concept of your hero, it is time to generate your scores and statistics for play."
 									]
 								},
 								{
-									"type": "section",
+									"type": "entries",
 									"name": "Ability Scores",
 									"page": 9,
 									"entries": [
@@ -591,14 +607,14 @@
 									]
 								},
 								{
-									"type": "section",
+									"type": "entries",
 									"page": 9,
 									"entries": [
 										"If you are playing as a hero with a human culture, add +1 to each ability score. Otherwise, follow the instructions listed with your chosen culture to determine what bonuses you receive to your ability scores."
 									]
 								},
 								{
-									"type": "section",
+									"type": "entries",
 									"name": "Armor Class",
 									"page": 9,
 									"entries": [
@@ -609,7 +625,7 @@
 									]
 								},
 								{
-									"type": "section",
+									"type": "entries",
 									"name": "Hit Points",
 									"page": 9,
 									"entries": [
@@ -678,7 +694,7 @@
 									]
 								},
 								{
-									"type": "section",
+									"type": "entries",
 									"name": "Choosing A Cornerstone",
 									"page": 10,
 									"entries": [
@@ -696,7 +712,7 @@
 									]
 								},
 								{
-									"type": "section",
+									"type": "entries",
 									"name": "Describing A Vulnerability",
 									"page": 10,
 									"entries": [
@@ -738,7 +754,7 @@
 									]
 								},
 								{
-									"type": "section",
+									"type": "entries",
 									"name": "Connections & tensions",
 									"page": 11,
 									"entries": [
@@ -776,6 +792,105 @@
 												"Alicia thinks up some hooks, beginning with her cornerstone. Thinking of her own life, she imagines Blaze having a community that she is close to, so she picks \"protecting her community\" as her cornerstone. She also adds her large, extended family as a vulnerability, too, signaling to the GM that they might be a way to cause some trouble for Blaze in the future.",
 												"She shares her hero's story with her fellow players, and then they all discuss what kinds of connections and tensions they might have with each other. Now Blaze is ready to be a superhero!"
 											]											
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "The Debrief",
+									"page": 12,
+									"entries": [
+										"Cornerstones, connections, and tensions are designed to promote rich and fun roleplay between players as their characters navigate interesting relationship dynamics. To incentivize doing so, each session ends with a debrief. During the debrief, the GM and players discuss what happened at the session and how each of them played their heroes, addressing their cornerstones and any relevant connections, tensions, or vulnerabilities that arose that session.",
+										{
+											"type": "entries",
+											"name": "Beginning the Debrief",
+											"page": 12,
+											"entries": [
+												"At the end of each session, the GM and players can discuss what just happened. This can help players make sense of what occurred, and it allows people who contributed to the session to be recognized. Most of all, though, it is fun to revisit the highlights of a good game!",
+												"To begin, each player should state one high point from the session. What happened that you liked? What did one of your fellow players do that you enjoyed? What are you excited about for next session? Once you've shared your highlights, it is time to reward good roleplay!"
+											]
+										},
+										{
+											"type": "inset",
+											"name": "On Safety and Consent During the Debrief",
+											"page": 12,
+											"entries": [
+												"If there was anything that occurred that you did not enjoy, or anything you'd like to see less of going forward, now is also an excellent time to bring that up. Please note that, if one of your fellow players brings something up currently that they didn't like but that you do like, it is important to respect their preferences. Just as you wouldn't force a friend to eat food at a shared meal that they didn't like, you shouldn't force someone to endure part of a game they don't enjoy either. For more on safety and consent, see Appendix 2."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Playing From or Against Cornerstones",
+											"page": 12,
+											"entries": [
+												"To begin, the GM asks the table which other player acted most in line with their hero's cornerstone that session. The player or players who receive the most votes from everyone at the table receives a point of Inspiration, up to a maximum of three, to use next session.",
+												"Alternatively, players can also pick a player who played against their cornerstone that session, but in an interesting way that enhanced the session. After all, acting against one's cornerstone does not necessarily mean that the player did a poor job roleplaying! In some cases, heroes are forced to make a hard decision and choose to act contrary to their principles, or their conscience, or their commitments. This can make for incredibly rich roleplay and storytelling and is worth rewarding."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Activating Connections & Tensions",
+											"page": 12,
+											"entries": [
+												"Next, each player can state one thing that either reinforced one of their connections or that triggered one of their tensions. If they call out a *connection*, add 1 point to the **Team Morale Pool** (see Chapter Seven: Rules, to learn about the team Morale Pool). If they call out a tension, they instead receive Inspiration. If a player activated neither a connection nor a tension that session, then nothing happens.",
+												"When a player calls out a connection or tension, they can also choose to resolve it and form a new one based on something that happened that session. If both players agree, then the player calling out that connection or tension can add 1 to the Team Morale Pool and gain Inspiration, rather than just do one or the other, as above."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Dealing with a Vulnerability",
+											"page": 12,
+											"entries": [
+												"Finally, if the GM brought your hero's vulnerability to bear in a way that made your hero's life more difficult, the GM rewards you with Inspiration for next session as well. This should not occur every session, however, but only occasionally; GMs shouldn't be targeting the heroes' vulnerabilities constantly!"
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Blaze Debriefs",
+											"page": 13,
+											"entries": [
+												"At the end of an exciting session, the GM asks the table which hero acted in line with their cornerstone. The players agree that Blaze did since she was acting to protect her community. Alicia agrees; after all, she was trying to stop the villain from unleashing a weapon in her hometown, so she gains a point of Inspiration for next session.",
+												"Next, Alicia announces that Blaze has triggered a tension with Impact. When Impact smashed through that wall, Alicia reports, it startled Blaze and reminded her of how frighteningly powerful Impact is. For doing this, Blaze could earn a point of Inspiration. But when Impact later caught that falling school bus and saved those kids, Alicia comments, Blaze also saw how awesome Impact's strength can be. Alicia asks Impact's player if it is ok for her to resolve Blaze's tension with Impact and form a new connection, one where she appreciates how Impact will risk herself to protect the innocent. Impact's player agrees, so Blaze gets a point of Inspiration, and they add 1 to the Team Morale Pool for the next session. Way to go, team!"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Inspiration",
+									"page": 13,
+									"entries": [
+										"Some GMs reward players who roleplay their personalities, especially those who involve their cornerstones,vulnerabilities, connections, and tensions in roleplay.",
+										{
+											"type": "entries",
+											"name": "Gaining Inspiration",
+											"page": 13,
+											"entries": [
+												"Your GM can choose to give you a point of Inspiration for a variety of reasons. Typically, GMs award it when you play out your cornerstones, vulnerabilities, connections, and tensions. Your GM will tell you how you can earn Inspiration points in the game.",
+												"You can earn up to three points of Inspiration and you can carry them over to the next session."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Using and Sharing Inspiration",
+											"page": 13,
+											"entries": [
+												"If you have a point of Inspiration, you can expend it after you have made an attack roll, save, or ability check, but before the GM has accepted the result and begun to move on. Spending a point of Inspiration allows you to reroll the {@dice d20}, effectively giving yourself advantage on that roll.",
+												"Additionally, if you have a point of Inspiration, you can reward a point to another player for good roleplaying, clever thinking, or simply doing something exciting in the game. When another player character does something that really contributes to the story in a fun and interesting way, you can give up a point of your Inspiration to give that character a point of Inspiration to use."
+											]
+										},
+										{
+											"type": "quote",
+											"entries": [
+												"Congratulations! You’ve made a truly super hero!"
+											]
+										},
+										{
+											"type": "image",
+											"href": {
+												"type": "external",
+												"url": "https://i.imgur.com/CBHZrxY.png"
+											}
 										}
 									]
 								}
