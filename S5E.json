@@ -566,6 +566,7 @@
 									],
 									"colStyles": [
 										"col-3 text-center",
+										"col-9",
 										"col-9"
 									],
 									"rows": [
