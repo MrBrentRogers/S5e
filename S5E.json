@@ -176,6 +176,13 @@
 					"name": "Credits",
 					"entries": [
 						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/Jpp9Dsw.png"
+							}
+						},
+						{
 							"name": "Written & Designed By:",
 							"entries": [
 								"Gwendolyn Marshall, Amy Marshall"
