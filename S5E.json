@@ -22,12 +22,12 @@
 		{
 			"name": "S5E: Superheroic Roleplaying for 5th Edition",
 			"id": "S5E",
+			"source": "S5E",
 			"authors": [
 				"Gwendolyn Marshall",
 				"Amy Bliss Marshall"
 			],
 			"published":  "2022-06-22",
-			"source": "S5E",
 			"group": "homebrew",
 			"coverUrl": "https://peginc.com/wp-content/uploads/2022/10/S5E_Superheroic_Roleplaying_Cover_900-1.jpg",
 			"contents": [
