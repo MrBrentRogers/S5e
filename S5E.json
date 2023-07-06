@@ -233,17 +233,17 @@
 					"name": "Introduction",
 					"page": 1,
 					"entries": [
-						"***Superheroic 5th Edition***, or ***S5E***, is a complete superhero system built on the fifth edition of the world's most popular roleplaying game. With S5E, you can create your favorite heroes from comic books, films, video games, and TV, as well as an endless number of original supers ready to take to the streets and beyond.",
+						"{@bold Superheroic 5th Edition}, or {@bold S5E}, is a complete superhero system built on the fifth edition of the world's most popular roleplaying game. With S5E, you can create your favorite heroes from comic books, films, video games, and TV, as well as an endless number of original supers ready to take to the streets and beyond.",
 						{
 							"type": "section",
 							"name": "What is S5E?",
 							"page": 1,
 							"entries": [
-								"S5E is a **tabletop roleplaying game**. Each of these words tells you something important. First, it is a **tabletop** game, which means it is a game played by a group of people around a table (though that can be a virtual 'table' as well, over the internet). Card games like poker, and board games like chess, are also tabletop games.",
-								"Second, it involves **roleplaying**. This means everyone, Game Master included, plays roles. Players play as fictional superheroes created out of their imaginations! The Game",
+								"S5E is a {@bold tabletop roleplaying game}. Each of these words tells you something important. First, it is a {@bold tabletop} game, which means it is a game played by a group of people around a table (though that can be a virtual 'table' as well, over the internet). Card games like poker, and board games like chess, are also tabletop games.",
+								"Second, it involves {@bold roleplaying}. This means everyone, Game Master included, plays roles. Players play as fictional superheroes created out of their imaginations! The Game",
 								"Master, or GM, plays as the world and the other people in it, responding to the players' choices. Everyone roleplays, which means they get to decide who their character is, what they do, and how they react to things that happen in the game. Feel free to get into acting as much or as little as you enjoy. Some groups dress up and speak in character voices, exploring backstories and motivations like a committed theater troupe. Other groups focus on the game part of the roleplaying game, engaging more with the rules and exploring how to develop their characters mechanically.",
 								"And, of course, most groups do both to some extent.",
-								"Furthermore, it is a **game**. Though roleplaying games are collective story-telling activities, they are also structured by rules. While a free-form improvisational storytelling experience can be rewarding and fun, S5E has rules that limit what can and cannot occur. To determine what happens in situations where there is conflict or risk, we roll a die to help randomize results. This way, everyone at the table can be surprised by what happens in our story, including the GM. It is not the GM's job to tell the players a story; on the contrary, it is everyone's job to play their roles in the game and find out what happens together. Indeed, it helps to think of the dice as another player contributing to the story, sometimes taking it in unexpected directions.",
+								"Furthermore, it is a {@bold game}. Though roleplaying games are collective story-telling activities, they are also structured by rules. While a free-form improvisational storytelling experience can be rewarding and fun, S5E has rules that limit what can and cannot occur. To determine what happens in situations where there is conflict or risk, we roll a die to help randomize results. This way, everyone at the table can be surprised by what happens in our story, including the GM. It is not the GM's job to tell the players a story; on the contrary, it is everyone's job to play their roles in the game and find out what happens together. Indeed, it helps to think of the dice as another player contributing to the story, sometimes taking it in unexpected directions.",
 								"S5E is a roleplaying game in another sense as well.",
 								"Though it is structured by rules, you cannot really win or lose S5E, because the point of the game is for people to come together to have fun! This is and always should be the primary purpose of playing S5E, so that everyone involved enjoys themselves. This doesn't mean that the experience needs to be easy or always end in victory, mind you\u2014we enjoy stories of struggle and loss sometimes too, after all. We strongly recommend everyone playing together spend time before the first session discussing openly what kind of game you'd like to create together, and how dark or light, how grim or hopeful, you'd like your world to be. And just as importantly, players should discuss whether the presence of any particular content might ruin people's fun. It's a simple courtesy to your friends and fellow players to respect each other's wishes, so that everyone can enjoy themselves. That's the point of playing a game together, after all! Recommended safety tools in Appendix 2 can help with tables and participants deciding this together."
 							]
@@ -300,7 +300,7 @@
 						"It's time to make a superhero! Will your hero be able to channel flame, or fly, or turn to stone, or read minds? Will they be a martial arts master, or a computer whiz? Let's find out.",
 						"The process of making a superhero follows a few simple steps.",
 						{
-							"type": "list",
+							"type": "entries",
 							"name": "Making A Superhero",
 							"page": 5,
 							"entries": [
@@ -328,7 +328,7 @@
 							{
 								"type": "entries",
 								"entries":[
-									"For your first session, sometimes called a **session zero**, expect to make characters, as well as to decide what kind of superheroic tale you’d like to tell. There are many kinds of superheroes, and many kinds of superheroic adventures. Do you want to be gritty street vigilantes hunting down criminals? Or a young superteam protecting your city from a villain, with a heavy focus on personal drama and relationships? Or would you prefer to save the planet from an alien invasion, highlighting high flying, blockbuster action? What you do in S5E is up to you!"
+									"For your first session, sometimes called a {@bold session zero}, expect to make characters, as well as to decide what kind of superheroic tale you’d like to tell. There are many kinds of superheroes, and many kinds of superheroic adventures. Do you want to be gritty street vigilantes hunting down criminals? Or a young superteam protecting your city from a villain, with a heavy focus on personal drama and relationships? Or would you prefer to save the planet from an alien invasion, highlighting high flying, blockbuster action? What you do in S5E is up to you!"
 								]
 							},
 							{
@@ -391,8 +391,8 @@
 									"type": "section",
 									"page": 6,
 									"entries": [
-										"The first step in making your superhero is choosing your biological ancestry and cultural heritage. Your ancestry determines something about your genetic makeup, whether it be **Human, Mutant, Mythic, Atlantean, Robotic, or Alien**. Your gain several inborn traits from your ancestry.",
-										"Your cultural heritage, in contrast, represents the society in which you were raised or created. Your culture provides you with knowledge, skills, and language--things you cannot inherit by birth but must be taught or learn. Options include **Present-Day Earth, Future Earth, Ancient Earth, Mythic Realm, Atlantean, or Alien.**",
+										"The first step in making your superhero is choosing your biological ancestry and cultural heritage. Your ancestry determines something about your genetic makeup, whether it be {@bold Human, Mutant, Mythic, Atlantean, Robotic, or Alien}. Your gain several inborn traits from your ancestry.",
+										"Your cultural heritage, in contrast, represents the society in which you were raised or created. Your culture provides you with knowledge, skills, and language--things you cannot inherit by birth but must be taught or learn. Options include {@bold Present-Day Earth, Future Earth, Ancient Earth, Mythic Realm, Atlantean, or Alien}.",
 										"Many superheroes are humans who grew up on presentday Earth. If that's you, choose the human ancestry and the present-day Earth culture. Many other heroes are mutants--humans with a distinct genetic trait that alters them in profound and unique ways. Most mutants grow up on present-day Earth as well, so they have the mutant ancestry and present-day Earth culture.",
 										"Other heroes have rarer ancestries. For example, you might be an alien, who grew up on a distant planet, with both alien ancestry and culture. Or perhaps you were born and raised at the bottom of the sea, and you have emerged from the depths to assist those who live on land; you have an Atlantean ancestry and culture.",
 										"Yet other heroes may not have been raised by people of the same ancestry. Perhaps your alien parents sent you to Earth as a baby? Choose the alien ancestry and human culture. Your hero could be a human taken and raised in space as a child, in which case you choose the human ancestry and alien culture.",
@@ -434,16 +434,16 @@
 									"page": 7,
 									"entries": [
 										"You have ten options when selecting your superheroic class. Your options are summarized here, but each class is explained in detail in Chapter Three.",
-										"You can be an **Elementalist**, who channels a classical element like fire, water, earth, or air, or who can manipulate a fundamental force of the universe, like electricity, time, gravity, light, or sound waves.",
-										"The **Kinetics** channel their power through their own bodies, moving with incredible strength or speed. Some teleport, others fly, and still others perform impossible acrobatic feats, while a few can absorb a mind-boggling amount of damage.",
-										"Several heroes express their power and ability through the rigorous training as a **Martial Expert**, honing their bodies into a deadly force. Some use their hands and feet, manifesting explosive power with a punch or kick. Others direct their deadly attacks with the help of a favored weapon, like a bow or pistol.",
-										"A few heroes are **Masterminds**, employing incredibly powerful intellects to analyze their foes and predict threats, or calling Minions onto the field of battle to fight for them.",
-										"Some superheroes are **Mentalists**, using telekinesis to move objects with their minds, or telepathy to communicate with or read thoughts, or even to implant images and illusions in someone's consciousness.",
-										"The **Metamorph** transforms their bodies in fantastic ways. Some can stretch their bodies in astonishing shapes while others can take on the appearance of other people with ease. Still other Metamorphs can become {@condition invisible}, or transmute their flesh into steel, and more. A few Metamorphs are even hosts bonded with a symbiote that grants them their powers.",
-										"The **Mystics**, on the other hand, use subtler, stranger methods. Some are witches, hexing foes, while others study the ways of the arcane. A few truck with the spirits, even with entities like Death itself.",
-										"And then there are **Tech** heroes who are mighty not through strength but intellect. They are masterful engineers, wielding high-tech weapons, or constructing power armor or an array of gadgets, which grant them powers on par with any of the other heroes.",
-										"Another superpowered class is the **Vitalist**, someone with a special connection to the living world. Some Vitalists commune with animals, becoming one themselves, while others command plant life. Still others work on a more fundamental level, producing and manipulating poisons, disease, and rejuvenating or necrotizing forces directly.",
-										"Finally, you can opt to forego superpowers entirely and instead choose training, equipment, and the support of an organization behind you as a **Special Agent**. Despite what you might think, Special Agents can and do make as big a difference as superpowered heroes in the field."
+										"You can be an {@bold Elementalist}, who channels a classical element like fire, water, earth, or air, or who can manipulate a fundamental force of the universe, like electricity, time, gravity, light, or sound waves.",
+										"The {@bold Kinetics} channel their power through their own bodies, moving with incredible strength or speed. Some teleport, others fly, and still others perform impossible acrobatic feats, while a few can absorb a mind-boggling amount of damage.",
+										"Several heroes express their power and ability through the rigorous training as a {@bold Martial Expert}, honing their bodies into a deadly force. Some use their hands and feet, manifesting explosive power with a punch or kick. Others direct their deadly attacks with the help of a favored weapon, like a bow or pistol.",
+										"A few heroes are {@bold Masterminds}, employing incredibly powerful intellects to analyze their foes and predict threats, or calling Minions onto the field of battle to fight for them.",
+										"Some superheroes are {@bold Mentalists} using telekinesis to move objects with their minds, or telepathy to communicate with or read thoughts, or even to implant images and illusions in someone's consciousness.",
+										"The {@bold Metamorph} transforms their bodies in fantastic ways. Some can stretch their bodies in astonishing shapes while others can take on the appearance of other people with ease. Still other Metamorphs can become {@condition invisible}, or transmute their flesh into steel, and more. A few Metamorphs are even hosts bonded with a symbiote that grants them their powers.",
+										"The {@bold Mystics} on the other hand, use subtler, stranger methods. Some are witches, hexing foes, while others study the ways of the arcane. A few truck with the spirits, even with entities like Death itself.",
+										"And then there are {@bold Tech} heroes who are mighty not through strength but intellect. They are masterful engineers, wielding high-tech weapons, or constructing power armor or an array of gadgets, which grant them powers on par with any of the other heroes.",
+										"Another superpowered class is the {@bold Vitalist} someone with a special connection to the living world. Some Vitalists commune with animals, becoming one themselves, while others command plant life. Still others work on a more fundamental level, producing and manipulating poisons, disease, and rejuvenating or necrotizing forces directly.",
+										"Finally, you can opt to forego superpowers entirely and instead choose training, equipment, and the support of an organization behind you as a {@bold Special Agent} Despite what you might think, Special Agents can and do make as big a difference as superpowered heroes in the field."
 									]
 								},
 								{
@@ -459,7 +459,7 @@
 									"page": 8,
 									"entries": [
 										"When making your superhero, start with a new, 1st level hero. If you and your group decide to begin play at a higher level, then you can follow the instructions in Chapter Six on leveling up your hero.",
-										"Your level also determines your **proficiency bonus** which increases with your level. At 1st level, your bonus is +2. You add your proficiency bonus to many {@dice d20} rolls you make, especially power rolls and skill checks. You also add your proficiency bonus to your Armor Class (or AC) when not wearing armor. As you rise in levels, your proficiency bonus goes up; consult the level charts in Chapter Two for each class to see when that occurs."
+										"Your level also determines your {@bold proficiency bonus} which increases with your level. At 1st level, your bonus is +2. You add your proficiency bonus to many {@dice d20} rolls you make, especially power rolls and skill checks. You also add your proficiency bonus to your Armor Class (or AC) when not wearing armor. As you rise in levels, your proficiency bonus goes up; consult the level charts in Chapter Two for each class to see when that occurs."
 									]
 								},
 								{
@@ -474,7 +474,7 @@
 									"name": "Making Blaze: Choosing a Class",
 									"page": 8,
 									"entries": [
-										"Next, Alicia chooses Blaze's superheroic **class**. She isn't using technology, and she wants to be amazing with fire, so she decides that Blaze is an Elementalist hero.",
+										"Next, Alicia chooses Blaze's superheroic {@bold class}. She isn't using technology, and she wants to be amazing with fire, so she decides that Blaze is an Elementalist hero.",
 										"Having chosen her class, she records it and the features it grants her on her character sheet. She also makes a note of the number and kind of powers she gets to select for Blaze in the next step."
 									]
 								}
@@ -495,7 +495,7 @@
 									"type": "section",
 									"page": 6,
 									"entries": [
-										"Next, your class guidelines tell you how to pick your **powers** and how many you can select. Consult your chosen superpower class to see how many powers are available to you. Further down, in Chapter Eight, you'll find the descriptions of the powers, which explain what each power lets you do."
+										"Next, your class guidelines tell you how to pick your {@bold powers} and how many you can select. Consult your chosen superpower class to see how many powers are available to you. Further down, in Chapter Eight, you'll find the descriptions of the powers, which explain what each power lets you do."
 									]
 								},
 								{	
@@ -561,7 +561,7 @@
 									"name": "Ability Scores",
 									"page": 9,
 									"entries": [
-										"Once you've chosen your class and powers, you must also determine your **ability scores**. You may spend 27 points to purchase your scores according to the Ability Score/Cost chart. Alternatively, you may roll {@dice 4d6} six times, dropping the lowest d6 with each roll, and then apply the sum of the remaining three dice to each of your abilities as you see fit."
+										"Once you've chosen your class and powers, you must also determine your {@bold ability scores}. You may spend 27 points to purchase your scores according to the Ability Score/Cost chart. Alternatively, you may roll {@dice 4d6} six times, dropping the lowest d6 with each roll, and then apply the sum of the remaining three dice to each of your abilities as you see fit."
 									]
 								},
 								{
@@ -636,9 +636,9 @@
 									"page": 9,
 									"entries": [
 										"Next, determine your Armor Class (AC). This is the number an enemy must roll to hit you with an attack. To calculate your AC when not wearing armor, use the following formula:",
-										"**Unarmored AC** = 10 + Your Proficiency Bonus + Your Dexterity Bonus",
+										"{@bold Unarmored AC} = 10 + Your Proficiency Bonus + Your Dexterity Bonus",
 										"If you are wearing armor or have natural armor, like the Alien's Hardened Skin, use the method to calculate your AC determined by that armor instead of the above formula.",
-										"Finally, decide if you want to purchase any additional **equipment** from the options listed in Chapter Five."
+										"Finally, decide if you want to purchase any additional {@bold equipment} from the options listed in Chapter Five."
 									]
 								},
 								{
@@ -648,7 +648,7 @@
 									"entries": [
 										"Your superpowered class determines what Hit Dice you use, which, in turn, determines how many hit points you have. Hit points (HP) represent how much damage you can sustain before you fall {@condition unconscious}.",
 										"Each class lists a Hit Die, either {@dice d6}, {@dice d8}, {@dice d10}, or {@dice d12}. When you create your character at 1st level, use the following method to determine your HP:",
-										"**HP** = 10 + the maximum number on your Hit Die + your Constitution modifier",
+										"{@bold HP} = 10 + the maximum number on your Hit Die + your Constitution modifier",
 										"At each subsequent level you add the average roll of that die, rounded up, plus your Constitution modifier, to your current hit point maximum. Alternatively, rather than using the average, you can roll the die instead."
 									]
 								},
@@ -665,7 +665,7 @@
 									"name": "Team morale & Combos",
 									"page": 9,
 									"entries": [
-										"Finally, there is a shared stat called **Team Morale**, which is a single score that applies to the whole group of PCs at the table. Team Morale begins at zero. Each time one of the heroes uses the {@action **Help**} action in combat, and whenever one of the players rolls a 20 on the {@dice d20} for an attack, ability check, or save, your shared Team Morale score goes up by 1. Once the Team Morale score equals the number of player characters at the table, they can decide together when to spend them to use a **Team Combo**.",
+										"Finally, there is a shared stat called {@bold Team Morale}, which is a single score that applies to the whole group of PCs at the table. Team Morale begins at zero. Each time one of the heroes uses the {@action Help} action in combat, and whenever one of the players rolls a 20 on the {@dice d20} for an attack, ability check, or save, your shared Team Morale score goes up by 1. Once the Team Morale score equals the number of player characters at the table, they can decide together when to spend them to use a {@bold Team Combo}.",
 										"A Team Combo is a free action that all heroes take together, but the catch is this: you all must use this free action to come together *to combine your powers and abilities!* Each player must describe how they combine their attack or power with one or more other hero(es) into a combined or collaborative effect. Team Combos are a great opportunity for some narrative superheroics, and your GM knows to let these moments really shine. For now, though, the Team Morale stat begins at zero, so get ready to help your allies frequently!"
 									]
 								},
@@ -723,7 +723,7 @@
 											"page": 10,
 											"entries": [
 												"Selecting a cornerstone is important for two reasons. First, it helps both you and your GM understand your hero. You'll know how your hero might react to various circumstances and your GM will know how to present the world to you in a way that appeals to your hero's motivations and values.",
-												"Second, describing your cornerstone matters mechanically as well, because acting from your cornerstone can grant you **Inspiration**. Visit the section titled, \"Debriefs,\" to see this in action."
+												"Second, describing your cornerstone matters mechanically as well, because acting from your cornerstone can grant you {@bold Inspiration}. Visit the section titled, \"Debriefs,\" to see this in action."
 											]
 										}
 									]
@@ -849,7 +849,7 @@
 											"name": "Activating Connections & Tensions",
 											"page": 12,
 											"entries": [
-												"Next, each player can state one thing that either reinforced one of their connections or that triggered one of their tensions. If they call out a *connection*, add 1 point to the **Team Morale Pool** (see Chapter Seven: Rules, to learn about the team Morale Pool). If they call out a tension, they instead receive Inspiration. If a player activated neither a connection nor a tension that session, then nothing happens.",
+												"Next, each player can state one thing that either reinforced one of their connections or that triggered one of their tensions. If they call out a *connection*, add 1 point to the {@bold Team Morale Pool} (see Chapter Seven: Rules, to learn about the team Morale Pool). If they call out a tension, they instead receive Inspiration. If a player activated neither a connection nor a tension that session, then nothing happens.",
 												"When a player calls out a connection or tension, they can also choose to resolve it and form a new one based on something that happened that session. If both players agree, then the player calling out that connection or tension can add 1 to the Team Morale Pool and gain Inspiration, rather than just do one or the other, as above."
 											]
 										},
