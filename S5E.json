@@ -279,7 +279,9 @@
 						{
 							"type": "inset",
 							"page": 2,
-							"entries": "I sense things... And perceive again... Have I been revived? There was a darkness, all consuming, yet tortuous. A fog that was dreamless and painful. How has it come to be that I can again exert my will? I will need to gather strength."
+							"entries": [
+								"I sense things... And perceive again... Have I been revived? There was a darkness, all consuming, yet tortuous. A fog that was dreamless and painful. How has it come to be that I can again exert my will? I will need to gather strength."
+							]
 						}
 					]
 				},
@@ -288,7 +290,7 @@
 					"name":"Chapter 1: Making A Superhero",
 					"page": 5,
 					"entries": [
-						"channel flame, or fly, or turn to stone, or read minds? Will they be a martial arts master, or a computer whiz? Let's find out.",
+						"It's time to make a superhero! Will your hero be able to channel flame, or fly, or turn to stone, or read minds? Will they be a martial arts master, or a computer whiz? Let's find out.",
 						"The process of making a superhero follows a few simple steps.",
 						{
 							"type": "list",
