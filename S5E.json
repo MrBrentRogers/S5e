@@ -65,7 +65,7 @@
 					}
 				},
 				{
-					"name": "Classes",
+					"name": "Chapter 3: Classes",
 					"headers": [
 						"Elementalist",
 						"Kinetic",
@@ -942,6 +942,7 @@
 									"page": 15,
 									"name": "Alien (Ancestry)",
 									"entries": [
+										"There are an endless number and variety of aliens in the universe. Some are indistinguishable from humans; others are so different that many humans do not even recognize them as sentient beings. Work with your GM to describe what your alien superhero looks like and how that might affect them if they interact with typical Earthlings. Because of your alien physiology, you have the following traits.",
 										{
 											"type": "list",
 											"items": [
@@ -955,6 +956,7 @@
 									"page": 15,
 									"name": "Aquatic (Ancestry)",
 									"entries": [
+										"Unbeknownst to most of the Earth, there are societies, some ancient and powerful, that have chosen to remain hidden at the bottom of the deep oceans. Millennia beneath the sea has granted your people the following traits.",
 										{
 											"type": "list",
 											"items": [
@@ -968,6 +970,7 @@
 									"page": 16,
 									"name": "Human (Ancestry)",
 									"entries": [
+										"Humans, or homo sapiens, are the predominant sentient species on Earth. They have the following traits.",
 										{
 											"type": "list",
 											"items": [
@@ -981,6 +984,7 @@
 									"page": 16,
 									"name": "Mutant (Ancestry)",
 									"entries": [
+										"Mutants, or homo sapiens mutans, are humans who are born with a rare genetic difference that grants them unique abilities. They have the following traits.",
 										{
 											"type": "list",
 											"items": [
@@ -994,6 +998,7 @@
 									"page": 16,
 									"name": "Mythic (Ancestry)",
 									"entries": [
+										"A few heroes hail from ancient and legendary lines, such as the Amazons, the Arthurian Court, Beowulf, Boudicca, Cúchulainn, Gilgamesh, Kundalakesi, or Susanō no Mikoto. Descendants of such heroes have the following traits.",
 										{
 											"type": "list",
 											"items": [
@@ -1007,6 +1012,7 @@
 									"page": 16,
 									"name": "Robotic (Ancestry)",
 									"entries": [
+										"Whether created on earth or by aliens among the stars, you are a synthetic being. Perhaps you are made of iron and powered by steam, or of high-tech polymers and running on a fusion engine. You may look roughly human or be obviously artificial. Either way, you are inorganic, don't have biological needs, and others around you are likely to be aware of that.",
 										{
 											"type": "list",
 											"items": [
@@ -1107,11 +1113,24 @@
 									"name": "Modern Earth (Culture)",
 									"entries": [ 
 										"You are a citizen of modern-day Earth and, as such, are familiar with its ways.",
-										"{@bold Varian}: The multiverse is varied and strange. Perhaps you are a human with a difference. You may hail from an alternate reality Earth or simply be an unusual individual from our own.",
 										{
 											"type": "list",
 											"items": [
 												"{@background Modern Earth (Culture)|S5E}"
+											]
+										},
+										{
+											"type": "inset",
+											"page": 19,
+											"name": "Are You a VARIANT?",
+											"entries": [
+												"The multiverse is varied and strange. Perhaps you are a human with a difference. You may hail from an alternate reality Earth or simply be an unusual individual from our own. Instead of the Ability Score Increase feature listed under the Modern Earth culture, you may add +1 to two traits and choose a feat at character creation.",
+												{
+													"type": "list",
+													"items": [
+														"{@background Modern Earth (Culture) VARIANT|S5E}"
+													]
+												}
 											]
 										}
 									]
@@ -1128,6 +1147,170 @@
 												"{@background Mythic Realm (Culture)|S5E}"
 											]
 										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Chapter 3: Classes",
+					"page": 21,
+					"entries": [
+						{
+							"type": "image",
+							"page": 20,
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/tf1XFNS.png"
+							}
+						},
+						"Some heroes shoot electricity from their hands. Others turn to steel and deflect bullets. Some conjure magical chains to bind their foes. And there are those who soar through the sky in armored suits.",
+						"Superheroes can vary vastly, with every hero being unique in their own way, but we can generally group them into ten classes of hero. These classes tell us something about not only what powers you have as a hero, but where your powers come from. Do your powers come from an inner reserve of elemental energy? Are they simply the way your body now works? Are they the product of a brilliant engineering mind? Or do you receive them as a boon from a mystical patron? The choice of superheroic class helps to answer these questions.",
+						"The ten choices of superheroic class are listed below.",
+						{
+							"type": "entries",
+							"page": 21,
+							"name": "Elementalist",
+							"entries": [
+								"Elementalist superheroes possess an innate ability to manipulate, conjure forth, and even become an elemental or physical force. Some command the classical elements of earth, air, fire, or water; others manipulate the forces of physics, such as magnetism, gravity, electricity, or light. A few tap other basic forces of chemistry and physics, such as acid or sound waves, as well.",
+								{
+									"type": "list",
+									"items": [
+										"{@class Elementalist|S5E}"
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"page": 26,
+							"name": "Kinetic",
+							"entries": [
+								"Kinetic superheroes display their powers physically, through feats of strength, speed, toughness, or mobility. These heroes can take a hit better than anyone else, and they can usually deal more damage with their bare hands than other heroes as well. Even those who focus on speed and agility are astonishingly resilient.",
+								{
+									"type": "list",
+									"items": [
+										"{@class Kinetic|S5E}"
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"page": 31,
+							"name": "Martial Expert",
+							"entries": [
+								"Some superheroes blast with elemental powers and others attack with sheer, brute strength. The Martial Expert, however, channels their power through training and selfdiscipline, empowering them to do things with their fists, feet, weapons, and mind that no one else can.",
+								{
+									"type": "list",
+									"items": [
+										"{@class Martial Expert|S5E}"
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"page": 35,
+							"name": "Mastermind",
+							"entries": [
+								"Some heroes don’t have superpowers, or amazing tech, or decades of training, yet they still earn fear or respect thanks to their superior intellect, tactical insight, and ability to command Minions to accomplish their goals.",
+								{
+									"type": "list",
+									"items": [
+										"{@class Mastermind|S5E}"
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"page": 41,
+							"name": "Mentalist",
+							"entries": [
+								"Whereas Kinetics channel their superheroic powers through the body, Mentalists manifest power through the mind. Some move objects with a thought, while others read and control the thoughts of others. Still other weave illusions in the minds of their foes.",
+								"Because their powers are largely mental, many Mentalists do not outwardly display their superpowers. Some do, of course, with glowing eyes or visible waves emanating from their forehead, but most appear mundane.",
+								"Mentalist heroes can be exceptionally dangerous. When you can throw your foe with a thought or force them to attack their allies, you can dominate a battle.",
+								{
+									"type": "list",
+									"items": [
+										"{@class Mentalist|S5E}"
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"page": 45,
+							"name": "Metamorph",
+							"entries": [
+								"Metamorphs are a diverse collection of heroes with strikingly different powers. Some can turn {@condition invisible}, others intangible; others merge with an alien symbiote; still others can adopt the appearance of other people; and a few can even stretch and alter their flesh in impossible ways.",
+								"There is one thing they all have in common, however; they all can perform fantastic feats by altering their bodies. When facing a Metamorph, it is hard to predict what threats you might encounter.",
+								{
+									"type": "list",
+									"items": [
+										"{@class Metamorph|S5E}"
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"page": 52,
+							"name": "Mystic",
+							"entries": [
+								"Elemental heroes tap fundamental forces and elements of the universe, like gravity or heat. Mystic heroes, however, access powers more eldritch and arcane, but no less real and potent.",
+								"Whereas Elementalists might shoot ice or light, the Mystics, on the other hand, use subtler, stranger methods. Some are witches, hexing foes, while others study the ways of the arcane. A few deal with the spirits, perhaps even with archetypes like Life or Death itself. These eerie powers make Mystic heroes uncanny and unpredictable.",
+								{
+									"type": "list",
+									"items": [
+										"{@class Mystic|S5E}"
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"page": 60,
+							"name": "Special Agent",
+							"entries": [
+								"Most heroes have superpowers, either from superpowered physiologies, super-advanced technology, decades of intensive martial arts training, or, occasionally, from a potent artifact. A few brave mortals lack superpowers, yet still fight along with the other heroes. They bring know-how, grit, and unique training to bear to fight for what they believe in.",
+								{
+									"type": "list",
+									"items": [
+										"{@class Special Agent|S5E}"
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"page": 65,
+							"name": "Tech",
+							"entries": [
+								"Most heroes rely on enhanced or mutant genetics to gain superpowers. The Tech hero makes their own.",
+								"No matter how you might have gained the tech, you now have the gear to grant you awesome powers that allow you to stand shoulder to shoulder with other heroes. Of course, some would suggest that someone non-powered who chooses to fight against superpowered foes is foolhardy indeed, no matter the tech involved.",
+								{
+									"type": "list",
+									"items": [
+										"{@class Tech|S5E}"
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"page": 70,
+							"name": "Vitalist",
+							"entries": [
+								"Vitalist heroes hold sway over some aspect of the natural world. Some Vitalists call upon legions of animals to do their bidding, while others manifest animal traits themselves. Still others command plant life, channeling plant toxins or other properties.",
+								"Some Vitalist heroes take on the appearance of their natural domains, coming to resemble an animal or something botanical in nature. Others, however, only present those qualities when they wish, perhaps transforming into a mundane looking human at times. Still others never change their bodies at all, instead commanding the natural world around them to serve.",
+								{
+									"type": "list",
+									"items": [
+										"{@class Vitalist|S5E}"
 									]
 								}
 							]
@@ -1513,59 +1696,252 @@
 			"traitTags": [
 				"Skill Proficiency"
 			],
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"str",
+								"dex",
+								"con",
+								"int",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				}
+			],
+			"skillProficiencies": [
+				{
+					"survival": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"artisan's tools": true
+				}
+			],
 			"entries": [
 				"Whether you traveled through a time portal or were in suspended animation for millennia, you grew up on Earth in the distant past. Maybe you were raised in prehistoric Europe or medieval Africa. Regardless, you have skills and experience that modern Earthlings don't.",
-				"Ability Score Increase. Choose one ability score to increase by 2 and choose another to increase by 1.",
-				"Handy. You learned how to use tools to survive or make a living. You have proficiency in {@skill Survival} and with one set of {@item artisan's tools|PHB} of your choice.",
-				"Omnivore. The humans of the past lacked refrigeration and sanitation. Your digestive track, therefore, is much more resilient than that of a modern human. You have resistance to poison damage and have advantage on saves against the {@condition poisoned} condition as well.",
-				"Language. You speak one modern Earth language and one ancient or medieval language of your choice."
+				{
+					"type": "entries",
+					"name": "Ability Score Increase",
+					"entries": [
+						"Choose one ability score to increase by 2 and choose another to increase by 1."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Handy",
+					"entries": [
+						"You learned how to use tools to survive or make a living. You have proficiency in {@skill Survival} and with one set of {@item artisan's tools|PHB} of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Omnivore",
+					"entries": [
+						"The humans of the past lacked refrigeration and sanitation. Your digestive track, therefore, is much more resilient than that of a modern human. You have resistance to poison damage and have advantage on saves against the {@condition poisoned} condition as well."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You speak one modern Earth language and one ancient or medieval language of your choice."
+					]
+				}
 			]
 		},
 		{
 			"name": "Aquatic (Culture)",
 			"source": "S5E",
 			"page": 19,
+			"speed": {"swim": true},
 			"traitTags": [
 				"Amphibious",
 				"Skill Proficiency"
 			],
 			"entries": [
 				"You were raised in the ancient and wondrous undersea cities of an aquatic people, learning their ways.",
-				"Aquatic Affinity. You have interacted with and studied sea creatures for much of your life. You have proficiency in Science and advantage on skill checks to interact with or to know about the ocean and its creatures.",
-				"Expert Swimmer. Having lived much of your life there, you have mastered moving through water. You have a swim speed equal to your walking speed. If you already have a swim speed equal to your walking speed, then your swim speed increases by 10 feet.",
-				"Language. You speak one Earth surface language and one aquatic language."
+				{
+					"type": "entries",
+					"name": "Aquatic Affinity",
+					"entries": [
+						"You have interacted with and studied sea creatures for much of your life. You have proficiency in Science and advantage on skill checks to interact with or to know about the ocean and its creatures."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Expert Swimmer",
+					"entries": [
+						"Having lived much of your life there, you have mastered moving through water. You have a swim speed equal to your walking speed. If you already have a swim speed equal to your walking speed, then your swim speed increases by 10 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You speak one Earth surface language and one aquatic language."
+					]
+				}
 			]
 		},
 		{
 			"name": "Future Earth (Culture)",
 			"source": "S5E",
 			"page": 19,
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"str",
+								"dex",
+								"con",
+								"int",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				}
+			],
 			"traitTags": [
 				"Skill Proficiency"
 			],
 			"entries": [
 				"Through some method time travel, you have arrived in the present from one possible future Earth. You may not be as familiar with contemporary Earth culture, but you have a command of technology that few modern Earthlings could match.",
-				"Ability Score Increase. Choose one ability score to increase by 2 and choose another to increase by 1.",
-				"Enhanced Immune System. Growing up in the future means that you and your ancestors have been exposed to new and deadly futuristic pathogens, either naturally occurring or engineered. You roll with advantage for saves concerning disease. You also have resistance to any damage caused by a disease.",
-				"Tech Adept. You have proficiency in either the Science or Technology skill, and you roll the skill with advantage when dealing with high-tech or futuristic technology.",
-				"Language. You speak one modern Earth language and one futuristic language of your choice."
+				{
+					"type": "entries",
+					"name": "Ability Score Increase",
+					"entries": [
+						"Choose one ability score to increase by 2 and choose another to increase by 1."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Enhanced Immune System",
+					"entries": [
+						"Growing up in the future means that you and your ancestors have been exposed to new and deadly futuristic pathogens, either naturally occurring or engineered. You roll with advantage for saves concerning disease. You also have resistance to any damage caused by a disease."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tech Adept",
+					"entries": [
+						"You have proficiency in either the Science or Technology skill, and you roll the skill with advantage when dealing with high-tech or futuristic technology."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You speak one modern Earth language and one futuristic language of your choice."
+					]
+				}
 			]
 		},
 		{
 			"name": "Modern Earth (Culture)",
 			"source": "S5E",
 			"page": 19,
+			"ability": [
+				{
+					"str": 1,
+					"dex": 1,
+					"con": 1,
+					"int": 1,
+					"wis": 1,
+					"cha": 1
+				}
+			],
 			"entries": [
 				"You are a citizen of modern-day Earth and, as such, are familiar with its ways.",
-				"Ability Score Increase. Your ability scores each increase by 1.",
-				"Familiarity. You are intimately familiar with Earthling lifeways. You have advantage on any knowledge roll that concerns everyday human life or common knowledge about Earth, including its politics, history, geography, and so on.",
-				"Languages. You know two Earth languages of your choice.",
 				{
-					"type": "inset",
-					"page": 19,
-					"name": "Are You a VARIANT?",
+					"type": "entries",
+					"name": "Ability Score Increase",
 					"entries": [
-						"The multiverse is varied and strange. Perhaps you are a human with a difference. You may hail from an alternate reality Earth or simply be an unusual individual from our own. Instead of the Ability Score Increase feature listed under the Modern Earth culture, you may add +1 to two traits and choose a feat at character creation."
+						"Your ability scores each increase by 1."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Familiarity",
+					"entries": [
+						"You are intimately familiar with Earthling lifeways. You have advantage on any knowledge roll that concerns everyday human life or common knowledge about Earth, including its politics, history, geography, and so on."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You know two Earth languages of your choice."
+					]
+				}
+			]
+		},
+		{
+			"name": "Modern Earth (Culture) VARIANT",
+			"source": "S5E",
+			"page": 19,
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"str",
+								"dex",
+								"con",
+								"int",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								1,
+								1
+							]
+						}
+					}
+				}
+			],
+			"entries": [
+				"The multiverse is varied and strange. Perhaps you are a human with a difference. You may hail from an alternate reality Earth or simply be an unusual individual from our own.",
+				{
+					"type": "entries",
+					"name": "Ability Score Increase",
+					"entries": [
+						"Instead of the Ability Score Increase feature listed under the Modern Earth culture, you may add +1 to two traits."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Variant Feat",
+					"entries": [
+						"Choose a {@feat |S5E} at character creation."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Familiarity",
+					"entries": [
+						"You are intimately familiar with Earthling lifeways. You have advantage on any knowledge roll that concerns everyday human life or common knowledge about Earth, including its politics, history, geography, and so on."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You know two Earth languages of your choice."
 					]
 				}
 			]
@@ -1577,15 +1953,62 @@
 			"traitTags": [
 				"Skill Proficiency"
 			],
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"str",
+								"dex",
+								"con",
+								"int",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				}
+			],
+			"skillProficiencies": [
+				{
+					"arcana": true
+				}
+			],
 			"entries": [
 				"You were raised in a land of myth and legend. Perhaps you were raised in the court of the Fey, or in a hidden enclave of ancient warriors from mythology. The modern, mundane world most likely confuses or amuses you, though your unfamiliarity with its ways can sometimes be an obstacle.",
-				"Ability Score Increase. Choose one ability score to increase by 2 and choose another to increase by 1.",
-				"Magical Exposure. Growing up in a mythic realm has exposed you to magical and supernatural energies. You have advantage on saving throws against being {@condition charmed} and advantage on {@skill Investigation} checks to determine the true nature of illusions.",
-				"Mystical Acquaintance. Growing up among mythic beings and magical phenomena has given you awareness of such things. You have proficiency in the Mysticism skill, and you roll with advantage when dealing with a being or phenomenon related to your realm.",
-				"Language. You speak one modern Earth language and one mystical language of your choice"
+				{
+					"type": "entries",
+					"name": "Ability Score Increase",
+					"entries": [
+						"Choose one ability score to increase by 2 and choose another to increase by 1."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Magical Exposure",
+					"entries": [
+						"Growing up in a mythic realm has exposed you to magical and supernatural energies. You have advantage on saving throws against being {@condition charmed} and advantage on {@skill Investigation} checks to determine the true nature of illusions."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mystical Acquaintance",
+					"entries": [
+						"Growing up among mythic beings and magical phenomena has given you awareness of such things. You have proficiency in the Mysticism [{@skill arcana] skill, and you roll with advantage when dealing with a being or phenomenon related to your realm."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You speak one modern Earth language and one mystical language of your choice."
+					]
+				}
 			]
 		}
-		
-		
 	]
 }
